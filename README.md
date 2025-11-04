@@ -31,12 +31,12 @@ A simple 12-bit instruction set architecture simulator with immediate arithmetic
 
 ## Example Program
 ```assembly
-MOV R0, 15      ; Load 15 into R0
-ADD R0, 10      ; Add 10 to R0 (R0 = 25)
-SUB R0, 5       ; Subtract 5 from R0 (R0 = 20)
-STORE R0, 10    ; Store R0 to memory[1][2]
-LOAD R1, 10     ; Load memory[1][2] into R1
-HALT            ; Stop
+MOV R0, 15      
+ADD R0, 10      
+SUB R0, 5       
+STORE R0, 10    
+LOAD R1, 10    
+HALT           
 ```
 
 ## Technical Details
