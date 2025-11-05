@@ -42,7 +42,7 @@ open("program.bin","w").close()
 pass
 while(running):
     instructions=[]
-    instruction = input("Enter instructions")
+    instruction = input("Enter instructions: ")
     mnem, args = assemble_line(instruction)
     if mnem.upper() == "HALT":
         binary = "111000000000"
@@ -53,3 +53,4 @@ while(running):
     print(binary)
     with open("program.bin","a") as f:
         f.write(binary + "\n")
+
